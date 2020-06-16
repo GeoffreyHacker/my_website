@@ -1,0 +1,93 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Bellota', cursive;
+}
+
+/* navbar */
+.nav_item a{
+   color: #fff !important;
+   font-family: 'Lobster', cursive;
+   margin: 0px 20px;
+}
+
+.nav_item a:hover{
+    border: solid 4px #00ffae;
+}
+
+
+.navbar-brand{
+    color: #f135e8 !important;
+    margin-left: 100px;
+    font-family: 'Righteous', cursive;
+}
+
+.navbar-brand .tech{
+    color: #00ffae !important;
+    font-family: 'Metal Mania', cursive;
+}
+
+.nav_item .active {
+    border: solid 4px #00ffae;
+}
+
+/*carousel-items*/
+
+.carousel-caption{
+    margin-bottom: 30%;
+}
+
+.carousel-item h5{
+    font-size: 40px;
+}
+
+.carousel-item p{
+    font-size: 20px;
+    font-family: 'Piedra', cursive;
+}
+
+.dark:after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: #444 none repeat scroll 0 0;
+    opacity: 0.5;
+    
+}
+
+/* newslatter */
+
+.form-group{
+    padding-top: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+#back{
+    background:url('../images/glenn-carstens-peters-0woyPEJQ7jc-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn{
+    margin-bottom: 100px;
+}
+
+/* cards */
+
+.main h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card{
+    padding: 30px 15px 30px 15px;
+}
